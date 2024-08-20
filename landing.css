@@ -1,0 +1,190 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100%;
+    font-family:sans-serif;
+    background-image:linear-gradient(to right,rgba(36, 145, 247, 0.9),rgba(255,255,255,0)),url('https://wallpapercave.com/wp/wp4069436.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo{
+    height: 90px;
+    width:90px;
+    padding: 10px;
+    float:left;
+}
+.menu{
+    width: 390px;
+    float: left;
+    height: 70px;
+    color: azure;
+   
+}
+.ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 10px;
+    margin-top: 8px;
+    float: left;
+    padding: 5px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color:black;
+    text-decoration: underline;
+}
+.search{
+    width: 480px;
+    float: left;
+    margin-left: 50px;
+    padding-top: 10px;
+}
+.srch{
+    font-family: sans-serif;
+    width: 300px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid white;
+    margin-top: 16px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-left: 20px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: rgb(6, 154, 154);
+    border: 2px solid white;
+    color: white;
+    margin-top: 17px;
+    float: left ;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.btn:focus{
+    outline:none;
+}
+.srch:focus{
+    outline: none;
+}
+nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.login{
+    margin-top: 25px ;
+    align-items: center;
+    font-weight: 600;
+    color: white;
+    background: rgb(6, 154, 154);
+    border-radius: 40px;
+    height: 40px;
+    width: 80px;  
+    border: 2px solid white; 
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+}
+.social{
+    margin-top: 100px;
+    width: 30px;
+    margin-left: 20px;
+    float: left;
+}
+.destination{
+    color: white;
+    font-weight: bolder;
+    float: left; 
+    margin-top: 200px; 
+}
+.destination .content{
+    margin-left: 100px;
+    float:left;
+    
+}
+.content p{
+    font-style: italic;
+    font-family: Calibri;
+    color: black;
+    font-weight: 700;
+    font-size: larger;
+}
+.content h1{
+    font-size: 70px;
+    font-family: Calibri;
+}
+.content span{
+    -webkit-text-stroke: 2px white;
+    -webkit-text-fill-color:transparent;
+}
+.destination__grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+    width: 500px;
+}
+.destination__card{
+    height:480px;
+    width:250px;
+    background-color:white;
+    box-shadow: 2px 20px 20px rgba(202, 186, 241, 0.7);
+    margin-left: 1px;
+}
+.destination__card img{
+    width: 100%;
+    height:200px;
+}
+.card__content{
+    padding: .1rem;
+}
+.card__content h4{
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-weight: 600px;
+    color: black;
+    font-family: Cambria, Cochin, 'Times New Roman', serif;
+}
+.card__content p{
+    margin-bottom: 5px;
+    font-size: 15px;
+    line-height: 25px;
+    color: black;
+    font-style: italic;
+    font-family: Calibri;
+}
+.card__content .btn{
+    outline: none;
+    border: none;
+    font-weight: 500;
+    color: white;
+    background-color:rgb(6, 154, 154);
+    cursor: pointer;
+}
